@@ -7,7 +7,7 @@
     color: #444;
 }
 
-h2, p {
+h2, p, table {
     color: #444;
     font-family: "Lato";
 }
@@ -23,4 +23,17 @@ p {
 img {
     border-radius: 10px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+td {
+    padding: 10px 20px 10px 10px;
+}
+
+
+#table-header {
+    background-color: rgb(255, 244, 230);
+}
+
+.table-row {
+    background-color: rgb(193, 255, 234);
 }
