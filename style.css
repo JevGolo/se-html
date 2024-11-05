@@ -31,7 +31,13 @@ p {
 
 img {
     border-radius: 10px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.5);
+    transition: .4s;
+}
+
+img:hover {
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
+    transition: .4s;
 }
 
 td {
