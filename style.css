@@ -3,6 +3,10 @@
 
 body {
     background-color: #f3e3cc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
 
 #main-header {
